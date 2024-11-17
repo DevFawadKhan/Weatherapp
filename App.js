@@ -5,7 +5,7 @@ const App = () => {
   const [city, setCity] = useState('');
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState('');
-  const API_KEY = '2a399fb7df9af5ac7823796188b879ce'; // Replace with your OpenWeather API Key
+  const API_KEY = 'YOUR API KEY';
   const fetchWeather = async () => {
     if (!city) {
       setError('Please enter a city name.');
